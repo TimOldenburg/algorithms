@@ -11,4 +11,7 @@ function reverseString(str) {
   return newArr;
 }
 
-reverseString("hello");
+console.log(reverseString("hello")) //should return a string.
+console.log(reverseString("hello")) //should become "olleh".
+console.log(reverseString("Howdy")) //should become "ydwoH".
+console.log(reverseString("Greetings from Earth")) //should return "htraE morf sgniteerG".
