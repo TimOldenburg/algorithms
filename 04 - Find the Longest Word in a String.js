@@ -4,7 +4,6 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 */
 
-
 function findLongestWordLength(str) {
   let newArr = str.split(" ").sort((a, b) => a.length < b.length);
   return newArr[0].length;
