@@ -4,7 +4,7 @@ Write a function that splits an array (first argument) into groups the length of
 
 function chunkArrayInGroups(arr, size) {
   let finalArr = [];
-  let newArr = arr;
+  let newArr = arr.concat();
   while (newArr.length > 0) {
     let spliced = newArr.splice(0, size);
     finalArr.push(spliced);
