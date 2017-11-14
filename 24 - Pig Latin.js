@@ -10,7 +10,7 @@ Input strings are guaranteed to be English words in all lowercase.
 
 function translatePigLatin(str) {
   let pigLatinArr = str.split("");
-  let index = pigLatinArr.findIndex(element => (/[a, e, i, o, u]/).test(element));
+  let index = pigLatinArr.findIndex(element => (/[aeiou]/).test(element));
   if (index === 0) {
     return str + "way";
   }
