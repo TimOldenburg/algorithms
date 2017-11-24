@@ -27,6 +27,6 @@ function sumPrimes(num) {
   return sum;
 }
 
-console.log(sumPrimes(10)) // should return a number.
+console.log(sumPrimes(10)) // should return a number. 
 console.log(sumPrimes(10)) // should return 17.
 console.log(sumPrimes(977)) // should return 73156.

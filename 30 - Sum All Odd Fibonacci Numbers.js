@@ -23,7 +23,7 @@ function sumFibs(num) {
   return sum;
 }
 
-console.log(sumFibs(1)) // should return a number.
+console.log(sumFibs(1)) // should return a number. 
 console.log(sumFibs(1000)) // should return 1785.
 console.log(sumFibs(4000000)) // should return 4613732.
 console.log(sumFibs(4)) // should return 5.
